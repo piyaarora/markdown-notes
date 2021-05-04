@@ -23,3 +23,29 @@ To create code blocks, indent every line of the block by at least four spaces or
         </head>
     </html>
 
+
+# Fenced code blocks
+
+The basic Markdown syntax allows you to create code blocks by indenting lines by four spaces or one tab. If you find that inconvenient, try using fenced code blocks. Depending on your Markdown processor or editor, you’ll use three backticks (```) or three tildes (~~~) on the lines before and after the code block. The best part? You don’t have to indent any lines!
+
+example:
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+## Syntax highlight
+This feature allows you to add color highlighting for whatever language your code was written in.
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+
