@@ -3,13 +3,17 @@
 There are two types of lists :
 
 ### 1) unordered list
-To create an unordered list, you'll want to preface each item in the list with an asterisk ( * ). Each list item also gets its own line. 
+To create an unordered list, you'll want to preface each item in the list with an asterisk ( * ) or use ( - ) or( + ). Each list item also gets its own line. 
 
 example:
-* Milk
-* Eggs
-* Salmon
-* Butter
+* Milk 
+* Eggs  
+or
++ Salmon
++ Butter  
+ or
+ - icecream
+ - chips
 
 ### 2) ordered list
 An ordered list is prefaced with numbers, instead of asterisks.
