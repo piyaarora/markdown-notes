@@ -16,5 +16,37 @@ example:
 [another place]: www.github.com
 [another-link]: www.google.com
   
+## adding title to a link
+
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+
+example:  
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+
+## adding urls and emails
+
+To quickly turn a URL or email address into a link, enclose it in angle brackets(<>).
+
+example:  
+<https://www.markdownguide.org>
+<fake@example.com>
+
+## Formatting Links
+To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
+
+example:  
+I love supporting the **[EFF](https://eff.org)**.  
+This is the *[Markdown Guide](https://www.markdownguide.org)*.  
+See the section on [`code`](#code).
+
+
+## Spaces in Link
+
+Markdown applications don’t agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with %20.
+
+[link](https://www.example.com/my%20great%20page)	
+
+
+
 
 
